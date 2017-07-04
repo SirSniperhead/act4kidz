@@ -140,7 +140,8 @@
 			padding: 0 30 0 30;
 	}
 
-	li.navbar a, .dropbtn {
+	li.navbar a
+	{
 	    display: inline-block;
 	    color: white;
 	    text-align: center;
