@@ -194,7 +194,7 @@
 	#content
 	{
 		float: left;
-		width: 790px;
+		width: 700px;
 	}
 
 /*********************************************************************************/
@@ -204,7 +204,7 @@
 	#sidebar
 	{
 		float: right;
-		width: 345px;
+		width: 300px;
 	}
 
 	#page-links
