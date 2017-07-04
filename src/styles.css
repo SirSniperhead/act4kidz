@@ -135,6 +135,8 @@
 	li.navbar
 	{
 	    float: left;
+			text-align: center;
+			padding: 0 30 0 30;
 	}
 
 	li.navbar a, .dropbtn
@@ -146,7 +148,7 @@
 	    text-decoration: none;
 	}
 
-	li a:hover, .dropdown:hover .dropbtn
+	li.navbar:hover, .dropdown:hover .dropbtn
 	{
 	    background-color: red;
 	}
