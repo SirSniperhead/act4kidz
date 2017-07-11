@@ -158,6 +158,7 @@
 	a.navbar.current_page
 	{
 		color: #ffffff;
+		text-decoration: underline;
 	}
 
 /*********************************************************************************/
