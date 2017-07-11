@@ -25,7 +25,7 @@
 	#header {
 		position: relative;
 		overflow: hidden;
-		height: 166px;
+		height: 155px;
 		width: 100%;
 	}
 
@@ -34,23 +34,16 @@
 /*********************************************************************************/
 
 	#logo_bar {
-		height: 120px;
+		height: 109px;
 		width: 100%;
 		text-align: center;
 		background: #FFFFFF;
 	}
 
-	#logo_img {
-		width: 150px;
-		height: 75px;
+	.logo_img img {
+		width: auto;
+		height: 109px;
 		float: left;
-		padding: 10px;
-	}
-
-	#logo_title {
-		width: 30%;
-		float: left;
-		padding: 10px;
 	}
 
 	#logo_menu {
@@ -62,17 +55,23 @@
 		list-style-type: none;
 		font-size: 16pt;
 		padding: 0;
-		margin: 10;
+		margin: 0;
+	}
+
+	#logo_menu .button_default li {
+		padding: 10px;
 	}
 
 	#logo_menu .button_default a {
 		text-decoration: none;
+		padding: 30px;
 	}
 
 
 	#logo_menu .button_default {
 		background: #ffffff;
 		width: 160px;
+		height: 45px;
 		float: left;
 		margin: 20px;
 		border-radius: 50px;
@@ -115,7 +114,7 @@
 
 	.navbar a	{
 	    display: inline-block;
-	    padding: 14px 30px;
+	    padding: 14px 35px;
 	    color: white;
 	    text-align: center;
 	    text-decoration: none;
