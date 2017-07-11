@@ -2,8 +2,7 @@
 /* Body Style                                                                    */
 /*********************************************************************************/
 
-	body
-	{
+	body {
 		margin: 0px;
 		padding: 0px;
 		background: #b9b9b9;
@@ -15,8 +14,7 @@
 /* Main Wrappers                                                                 */
 /*********************************************************************************/
 
-	#wrapper
-	{
+	#wrapper {
 		background: #FFFFFF;
 	}
 
@@ -24,64 +22,55 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
-	{
+	#header {
 		position: relative;
 		overflow: hidden;
 		height: 166px;
 		width: 100%;
-		background: #00f7ff;
 	}
 
 /*********************************************************************************/
 /* Logo Bar                                                                      */
 /*********************************************************************************/
 
-	#logo_bar
-	{
+	#logo_bar {
 		height: 120px;
 		width: 100%;
 		text-align: center;
 		background: #FFFFFF;
 	}
 
-	#logo_img
-	{
+	#logo_img {
 		width: 150px;
 		height: 75px;
 		float: left;
 		padding: 10px;
 	}
 
-	#logo_title
-	{
+	#logo_title {
 		width: 30%;
 		float: left;
 		padding: 10px;
 	}
 
-	#logo_menu
-	{
+	#logo_menu {
 		float: right;
 		padding: 10px;
 	}
 
-	#logo_menu .button_default ul
-	{
+	#logo_menu .button_default ul {
 		list-style-type: none;
 		font-size: 16pt;
 		padding: 0;
 		margin: 10;
 	}
 
-	#logo_menu .button_default a
-	{
+	#logo_menu .button_default a {
 		text-decoration: none;
 	}
 
 
-	#logo_menu .button_default
-	{
+	#logo_menu .button_default {
 		background: #ffffff;
 		width: 160px;
 		float: left;
@@ -93,13 +82,11 @@
 		color: #000000;
 	}
 
-	#logo_menu .button_donate
-	{
+	#logo_menu .button_donate	{
 		background: #ff0000;
 	}
 
-	#logo_menu .button_donate a
-	{
+	#logo_menu .button_donate a	{
 		color: #ffffff;
 	}
 
@@ -107,48 +94,38 @@
 /* Navbar                                                                        */
 /*********************************************************************************/
 
-	#navbar {
-		margin: auto;
-	}
-
-	div.navbar
-	{
+	div.navbar {
 		height: 46px;
 		background-color: #280625;
 	}
 
-	ul.navbar
-	{
+	.navbar ul	{
 	    list-style-type: none;
-	    margin: 0;
+			margin: 0;
 	    padding: 0;
 	    overflow: hidden;
+			width: 100%;
 	}
 
-	li.navbar
-	{
+	.navbar li	{
 	    float: left;
 			text-align: center;
-			padding: 0 30 0 30;
 			transition: all 0.3s ease-in-out;
 	}
 
-	li.navbar a
-	{
+	.navbar a	{
 	    display: inline-block;
+	    padding: 14px 30px;
 	    color: white;
 	    text-align: center;
-	    padding: 14px 16px;
 	    text-decoration: none;
 	}
 
-	li.navbar:hover
-	{
+	.navbar li:hover {
 	    background-color: red;
 	}
 
-	a.navbar.current_page
-	{
+	.navbar a.current_page {
 		color: #ffffff;
 		text-decoration: underline;
 	}
@@ -171,9 +148,9 @@
 
 	/* Slideshow container */
 	.slideshow-container {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
 	}
 
 	.mySlides {
@@ -182,82 +159,65 @@
 
 	/* Next & previous buttons */
 	.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
 	}
 
 	/* Position the "next button" to the right */
 	.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
+		right: 0;
+		border-radius: 3px 0 0 3px;
 	}
 
 	/* On hover, add a black background color with a little bit see-through */
 	.prev:hover, .next:hover {
-	background-color: rgba(0,0,0,0.8);
+		background-color: rgba(0,0,0,0.8);
 	}
 
 	/* Caption text */
 	.caption {
-	color: #f2f2f2;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
+		color: #000000;
+		font-size: 15px;
+		padding: 8px 12px;
+		bottom: 8px;
+		text-align: center;
+		background-color: #b9b9b9;
 	}
 
 	/* Number text (1/3 etc) */
 	.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-	}
-
-	/* The dots/bullets/indicators */
-	.dot {
-	cursor:pointer;
-	height: 13px;
-	width: 13px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-	}
-
-	.active, .dot:hover {
-	background-color: #717171;
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
 	}
 
 	/* Fading animation */
 	.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
 	}
 
 	@-webkit-keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
+		from {opacity: .4}
+		to {opacity: 1}
 	}
 
 	@keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
+		from {opacity: .4}
+		to {opacity: 1}
 	}
 
 /*********************************************************************************/
@@ -276,8 +236,7 @@
 /* Page                                                                          */
 /*********************************************************************************/
 
-	#page
-	{
+	#page	{
 		overflow: hidden;
 		width: 75%;
 		margin: 0px auto;
@@ -288,8 +247,7 @@
 /* Content                                                                       */
 /*********************************************************************************/
 
-	#content
-	{
+	#content {
 		float: left;
 		width: 75%;
 	}
@@ -298,47 +256,25 @@
 /* Sidebar                                                                       */
 /*********************************************************************************/
 
-	#sidebar
-	{
+	#sidebar {
 		float: right;
 		width: 20%;
 	}
 
-	#page-links
-	{
+	#page-links {}
 
-	}
-
-	#social-links
-	{
-
-	}
-
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
-	#footer
-	{
-		overflow: hidden;
-		padding: 5em 0em;
-		text-align: center;
-		text-transform: uppercase;
-		color: #6F6F6F;
-	}
+	#social-links {}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-	#copyright
-	{
+	#copyright {
 		overflow: hidden;
 		padding: 5em 0em;
 	}
 
-	#copyright p
-	{
+	#copyright p {
 		letter-spacing: 0.20em;
 		text-align: center;
 		text-transform: uppercase;
