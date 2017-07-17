@@ -121,11 +121,11 @@
 	}
 
 	.navbar li:hover {
-	    background-color: red;
+	    background-color: rgb(254, 10, 10);
 	}
 
 	.navbar a.current_page {
-		color: #ffffff;
+		background-color: rgb(254, 10, 10);
 		text-decoration: underline;
 	}
 
