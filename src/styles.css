@@ -65,6 +65,7 @@
 	#logo_menu .button_default a {
 		text-decoration: none;
 		padding: 30px;
+		color: #000000;
 	}
 
 
@@ -78,7 +79,6 @@
 		border-style: solid;
 		border-width: 2px;
 		border-color: #000000;
-		color: #000000;
 	}
 
 	#logo_menu .button_donate	{
@@ -253,7 +253,7 @@
 
 	#content img {
 	padding: 10 0px;
-	
+
 	}
 /*********************************************************************************/
 /* Sidebar                                                                       */
