@@ -23,8 +23,26 @@
     background-repeat: no-repeat;
     text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
-
-
+#office {
+	font-family: Century;
+    font-size: 20px;
+    line-height: 1.428571429;
+    color: #DC143C;
+    background-color: #fff;
+}
+#contactline {
+	font-family: Century Gothic;
+    font-size: 16px;
+    color: #DC143C;
+    background-color: #fff;
+}
+#socialmedia {
+	font-family: Century;
+    font-size: 17.5px;
+    line-height: 1.428571429;
+    color: #DC143C;
+    background-color: #fff;
+}
 /*********************************************************************************/
 /* Main Wrappers                                                                 */
 /*********************************************************************************/
