@@ -247,8 +247,23 @@
 	}
 
 	.support-grid td {
-		padding: 20;
 		text-align: center;
+		padding: 0 10 20 10;
+		margin: 0;
+		width: 250;
+	}
+
+	.support-grid img {
+		width: 150;
+		height: 150;
+		border-width: thick;
+		border-style: solid;
+		border-color: #f49242;
+	}
+
+	.support-grid h3, .support-grid p {
+		padding: 2 0;
+		margin: 0;
 	}
 
 /*********************************************************************************/
@@ -271,7 +286,7 @@
 		width: 75%;
 	}
 
-	#content img {
+	.article img {
 	padding: 10 0px;
 
 	}
