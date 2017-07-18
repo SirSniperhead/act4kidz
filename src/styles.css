@@ -11,11 +11,13 @@
 	}
 
 	#introtext .vmiddle .wrap h1 {
-	    margin: 0px auto;
-	    font-size: 50px;
-	    line-height: 1.3;
-	    font-weight: 300;
+    margin: 0px auto;
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: 300;
 		color: 	#F8F8FF;
+		text-align: center;
+		width: 100%;
 	}
 
 	#introtext {
