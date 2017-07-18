@@ -9,42 +9,6 @@
 		color: #000000;
 		font-family: sans-serif;
 	}
-<<<<<<< HEAD
-#introtext .vmiddle .wrap h1 {
-    margin: 0px auto;
-    font-size: 50px;
-    line-height: 1.3;
-    font-weight: 300;
-	color: 	#F8F8FF;
-}
-#introtext {
-    background-color: #666;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
-}
-#office {
-	font-family: Century;
-    font-size: 20px;
-    line-height: 1.428571429;
-    color: #DC143C;
-    background-color: #fff;
-}
-#contactline {
-	font-family: Century Gothic;
-    font-size: 16px;
-    color: #DC143C;
-    background-color: #fff;
-}
-#socialmedia {
-	font-family: Century;
-    font-size: 17.5px;
-    line-height: 1.428571429;
-    color: #DC143C;
-    background-color: #fff;
-}
-=======
 
 	#introtext .vmiddle .wrap h1 {
 	    margin: 0px auto;
@@ -62,7 +26,6 @@
 	    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 	}
 
->>>>>>> 0c236eb75a56e767390ea5b9387b3fbbb58a8e8c
 /*********************************************************************************/
 /* Main Wrappers                                                                 */
 /*********************************************************************************/
