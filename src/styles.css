@@ -9,21 +9,22 @@
 		color: #000000;
 		font-family: sans-serif;
 	}
-#introtext .vmiddle .wrap h1 {
-    margin: 0px auto;
-    font-size: 50px;
-    line-height: 1.3;
-    font-weight: 300;
-	color: 	#F8F8FF;
-}
-#introtext {
-    background-color: #666;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
-}
 
+	#introtext .vmiddle .wrap h1 {
+	    margin: 0px auto;
+	    font-size: 50px;
+	    line-height: 1.3;
+	    font-weight: 300;
+		color: 	#F8F8FF;
+	}
+
+	#introtext {
+	    background-color: #666;
+	    background-size: cover;
+	    background-position: 50% 50%;
+	    background-repeat: no-repeat;
+	    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	}
 
 /*********************************************************************************/
 /* Main Wrappers                                                                 */
@@ -82,7 +83,6 @@
 		padding: 30px;
 		color: #000000;
 	}
-
 
 	#logo_menu .button_default {
 		background: #ffffff;
@@ -264,6 +264,10 @@
 	.support-grid h3, .support-grid p {
 		padding: 2 0;
 		margin: 0;
+	}
+
+	.support-grid a {
+		text-decoration: none;
 	}
 
 /*********************************************************************************/
