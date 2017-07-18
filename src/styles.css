@@ -240,6 +240,13 @@
 
 	.sponsor-grid td {
 		text-align: center;
+		border-style: groove;
+		border-width: medium;
+		border-radius: 10px;
+	}
+
+	.sponsor-grid tr {
+		padding: 20;
 	}
 
 	.sponsor-grid {
