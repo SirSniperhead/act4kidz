@@ -141,7 +141,7 @@
 
 	.navbar a.current_page {
 		background-color: rgb(254, 10, 10);
-		text-decoration: underline;
+		font-style: italic;
 	}
 
 /*********************************************************************************/
@@ -151,10 +151,6 @@
 	.title h1 {
 		text-align: center;
 	}
-
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
 
 /*********************************************************************************/
 /* Image Gallery Styles                                                          */
@@ -245,11 +241,8 @@
 		border-radius: 10px;
 	}
 
-	.sponsor-grid tr {
-		padding: 20;
-	}
-
-	.sponsor-grid {
+	.sponsor-grid table {
+		margin: auto;
 		padding-bottom: 20px;
 	}
 
@@ -260,12 +253,17 @@
 		width: 250;
 	}
 
+	.support-grid table {
+		margin: auto;
+	}
+
 	.support-grid img {
 		width: 150;
 		height: 150;
 		border-width: thick;
 		border-style: solid;
 		border-color: #f49242;
+		margin-bottom: 5;
 	}
 
 	.support-grid h3, .support-grid p {
@@ -283,7 +281,7 @@
 
 	#page	{
 		overflow: hidden;
-		width: 75%;
+		width: 60%;
 		margin: 0px auto;
 		padding: 10px 0px;
 	}
@@ -293,26 +291,29 @@
 /*********************************************************************************/
 
 	#content {
-		float: left;
-		width: 75%;
+		margin: auto;
 	}
 
 	.article img {
 	padding: 10 0px;
-
-	}
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-
-	#sidebar {
-		float: right;
-		width: 20%;
 	}
 
-	#page-links {}
+	.thirds {
+		width: 80%;
+		height: 200;
+		margin: auto;
+		padding: 0;
+	}
 
-	#social-links {}
+	.thirds div {
+		float: left;
+		width: 30%;
+		padding: 0 5;
+	}
+
+	.thirds h3 {
+		text-align: center;
+	}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
