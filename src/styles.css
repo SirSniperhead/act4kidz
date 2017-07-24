@@ -255,10 +255,6 @@
 		width: 250;
 	}
 
-	.support-grid table {
-		margin: auto;
-	}
-
 	.support-grid img {
 		width: 150;
 		height: 150;
@@ -276,7 +272,45 @@
 	.support-grid a {
 		text-decoration: none;
 	}
+	
+	/* Donator table */
+	
+	.donator-grid td {
+		text-align: center;
+		border-style: groove;
+		border-width: medium;
+		border-radius: 10px;
+	}
 
+	.donator-grid table {
+		margin: auto;
+		padding-bottom: 20px;
+	}
+
+	.donator-grid td {
+		text-align: center;
+		padding: 0 10 20 10;
+		margin: 0;
+		width: 250;
+	}
+
+	.donator-grid img {
+		width: 150;
+		height: 150;
+		border-width: thick;
+		border-style: solid;
+		border-color: #ed4747;
+		margin-bottom: 5;
+	}
+
+	.donator-grid h3, .donator-grid p {
+		padding: 2 0;
+		margin: 0;
+	}
+
+	.donator-grid a {
+		text-decoration: none;
+	}
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
