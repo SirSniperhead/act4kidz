@@ -152,6 +152,9 @@
 		color: rgb(254, 10, 10);
 	}
 
+	.title img {
+	}
+
 	#red {
 		font: Yu Gothic Medium;
 		color: red;
@@ -288,7 +291,7 @@
 	.donator-grid a {
 		text-decoration: none;
 	}
-/*********************************************************************************/	
+
 		.sponsor-grid1 td {
 		text-align: center;
 		border-style: groove;
@@ -365,6 +368,7 @@
 	.donator-grid a {
 		text-decoration: none;
 	}
+
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
@@ -396,6 +400,13 @@
 
 	.article img {
 	padding: 10 0px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	}
+
+	.article {
+		text-align: center;
 	}
 
 	.thirds {
@@ -420,17 +431,20 @@
 
 	#article1, #article2, #article3, #article4 {
 		display: none;
-		
 	}
+
+	.service-buttons {
+		text-align: center;
+	}
+
+	.service-content img {
+		padding: 10 0;
+		width: 100%;
+	}
+
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
-}
-
-	#socialmedia p {
-		color: #FFFFFF;
-		text-align: center;
-	}
 
 	#copyright {
 		overflow: hidden;
@@ -443,4 +457,9 @@
 		text-transform: uppercase;
 		font-size: 0.80em;
 		color: #6F6F6F;
+	}
+
+	.social-media {
+		font-weight: bold;
+			text-align: center;
 	}
