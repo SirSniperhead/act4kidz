@@ -269,9 +269,9 @@
 	.support-grid a {
 		text-decoration: none;
 	}
-	
+
 	/* Donator table */
-	
+
 	.donator-grid td {
 		text-align: center;
 		border-style: groove;
@@ -309,7 +309,7 @@
 	.donator-grid a {
 		text-decoration: none;
 	}
-	
+
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
@@ -358,7 +358,10 @@
 	.thirds h3 {
 		text-align: center;
 	}
-<<<<<<< HEAD
+
+	.thirds p {
+		padding: 0 15%;
+	}
 
 	.donate-iframe {
 		padding: 10px;
@@ -367,22 +370,16 @@
 		border: none;
 	}
 
-=======
-	
-	.thirds p {
-		padding: 0 15%;
-	
->>>>>>> b356a4334661f50a780012a3bf84dd4923328e26
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
 }
-	
+
 	#socialmedia p {
 		color: #FFFFFF;
 		text-align: center;
 	}
-	
+
 	#copyright {
 		overflow: hidden;
 		padding: 1em 0em;
