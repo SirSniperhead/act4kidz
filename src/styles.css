@@ -353,14 +353,20 @@
 	
 	.thirds p {
 		padding: 0 15%;
-	}
+	
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
-
+}
+	
+	#socialmedia p {
+		color: #FFFFFF;
+		text-align: center;
+	}
+	
 	#copyright {
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 1em 0em;
 	}
 
 	#copyright p {
