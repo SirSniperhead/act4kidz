@@ -1,0 +1,394 @@
+/*********************************************************************************/
+/* Body Style                                                                    */
+/*********************************************************************************/
+
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: #b9b9b9;
+		color: #000000;
+		font-family: sans-serif;
+	}
+
+	#introtext .vmiddle .wrap h1 {
+    margin: 0px auto;
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: 300;
+		color: 	#F8F8FF;
+		text-align: center;
+		width: 100%;
+	}
+
+	#introtext {
+	    background-color: #666;
+	    background-size: cover;
+	    background-position: 50% 50%;
+	    background-repeat: no-repeat;
+	    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	}
+
+	#wrapper {
+		background: #FFFFFF;
+		padding-bottom: 20px;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header {
+		position: relative;
+		overflow: hidden;
+		height: 155px;
+		width: 100%;
+	}
+
+/*********************************************************************************/
+/* Logo Bar                                                                      */
+/*********************************************************************************/
+
+	#logo_bar {
+		height: 109px;
+		width: 100%;
+		text-align: center;
+		background: #FFFFFF;
+	}
+
+	.logo_img img {
+		width: auto;
+		height: 109px;
+		float: left;
+	}
+
+	#logo_menu {
+		float: right;
+		padding: 10px;
+	}
+
+	#logo_menu .button_default ul {
+		list-style-type: none;
+		font-size: 16pt;
+		padding: 0;
+		margin: 0;
+	}
+
+	#logo_menu .button_default li {
+		padding: 10px;
+	}
+
+	#logo_menu .button_default a {
+		text-decoration: none;
+		padding: 30px;
+		color: #000000;
+	}
+
+	#logo_menu .button_default {
+		background: #ffffff;
+		width: 160px;
+		height: 45px;
+		float: left;
+		margin: 20px;
+		border-radius: 50px;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+	}
+
+	#logo_menu .button_donate	{
+		background: #ff0000;
+	}
+
+	#logo_menu .button_donate a	{
+		color: #ffffff;
+	}
+
+/*********************************************************************************/
+/* Navbar                                                                        */
+/*********************************************************************************/
+
+	div.navbar {
+		height: 46px;
+		background-color: #280625;
+	}
+
+	.navbar ul	{
+	    list-style-type: none;
+			margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+			width: 100%;
+	}
+
+	.navbar li	{
+	    float: left;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+	}
+
+	.navbar a	{
+	    display: inline-block;
+	    padding: 14px 35px;
+	    color: white;
+	    text-align: center;
+	    text-decoration: none;
+	}
+
+	.navbar li:hover {
+	    background-color: rgb(254, 10, 10);
+	}
+
+	.navbar a.current_page {
+		background-color: rgb(254, 10, 10);
+		font-style: italic;
+	}
+
+/*********************************************************************************/
+/* Title Styles                                                                  */
+/*********************************************************************************/
+
+	.title h1 {
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Image Gallery Styles                                                          */
+/*********************************************************************************/
+
+	/* Slideshow container */
+	.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	}
+
+	.mySlides {
+		display: none;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+		background-color: rgba(0,0,0,0.8);
+	}
+
+	/* Caption text */
+	.caption {
+		color: #000000;
+		font-size: 15px;
+		padding: 8px 12px;
+		bottom: 8px;
+		text-align: center;
+		background-color: #b9b9b9;
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	/* Fading animation */
+	.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+		from {opacity: .4}
+		to {opacity: 1}
+	}
+
+	@keyframes fade {
+		from {opacity: .4}
+		to {opacity: 1}
+	}
+
+/*********************************************************************************/
+/* Table Styles                                                                  */
+/*********************************************************************************/
+
+	.sponsor-grid td {
+		text-align: center;
+		border-style: groove;
+		border-width: medium;
+		border-radius: 10px;
+	}
+
+	.sponsor-grid table {
+		margin: auto;
+		padding-bottom: 20px;
+	}
+
+	.support-grid td {
+		text-align: center;
+		padding: 0 10 20 10;
+		margin: 0;
+		width: 250;
+	}
+
+	.support-grid img {
+		width: 150;
+		height: 150;
+		border-width: thick;
+		border-style: solid;
+		border-color: #f49242;
+		margin-bottom: 5;
+	}
+
+	.support-grid h3, .support-grid p {
+		padding: 2 0;
+		margin: 0;
+	}
+
+	.support-grid a {
+		text-decoration: none;
+	}
+
+	/* Donator table */
+
+	.donator-grid td {
+		text-align: center;
+		border-style: groove;
+		border-width: medium;
+		border-radius: 10px;
+	}
+
+	.donator-grid table {
+		margin: auto;
+		padding-bottom: 20px;
+		border-spacing: 10px;
+	}
+
+	.donator-grid td {
+		text-align: center;
+		padding: 20 10 20 10;
+		margin: 30 0 0 0;
+		width: 250;
+	}
+
+	.donator-grid img {
+		width: 150;
+		height: 150;
+		border-width: thick;
+		border-style: solid;
+		border-color: #ed4747;
+		margin-bottom: 5;
+	}
+
+	.donator-grid h3, .donator-grid p {
+		padding: 2 0;
+		margin: 0;
+	}
+
+	.donator-grid a {
+		text-decoration: none;
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page	{
+		overflow: hidden;
+		width: 80%;
+		margin: 0px auto;
+		padding: 0px;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content {
+		overflow: hidden;
+		margin: 15px auto;
+		padding: 20 50;
+		width: 70%;
+		box-shadow: 0px 5px 30px #6F6F6F;
+		background-color: rgba(254, 10, 10, 0.05);
+		border-color: rgba(254, 10, 10, 0.8);
+		border-style: solid none;
+		border-radius: 10px;
+		border-width: 10px;
+	}
+
+	.article img {
+	padding: 10 0px;
+	}
+
+	.thirds {
+		width: 100%;
+		height: 200;
+		margin: auto;
+		padding: 0;
+	}
+
+	.thirds div {
+		float: left;
+		width: 30%;
+		padding: 0 16;
+	}
+
+	.thirds h3 {
+		text-align: center;
+	}
+
+	.thirds p {
+		padding: 0 15%;
+	}
+
+	.donate-iframe {
+		padding: 10px;
+		height: 2100;
+		width: 100%;
+		border: none;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+}
+
+	#socialmedia p {
+		color: #FFFFFF;
+		text-align: center;
+	}
+
+	#copyright {
+		overflow: hidden;
+		padding: 1em 0em;
+	}
+
+	#copyright p {
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #6F6F6F;
+	}
