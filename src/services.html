@@ -47,32 +47,80 @@
       				<p>Act for kids is an organisation dedicated to making kids lives better, and to do this we offer many different service ranging from therapy from abuse and neglect trauma to providing safe homes for those under child protection orders.</p>
 				    </div>
           </div>
+		  
+<!-- Hide and Show Element -->
+
+ <script>
+ function myFunction1() {
+    var x = document.getElementById('article1');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+ function myFunction2() {
+    var x = document.getElementById('article2');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+ function myFunction3() {
+    var x = document.getElementById('article3');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+ function myFunction4() {
+    var x = document.getElementById('article4');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+ </script>
+ 
+ 
+ 
+ 
 					<!-- Integrated Therapy Services -->
-          <div class="article">
-  					<div class="title">
-    					<h2 id="red">Integrated Therapy Services</h2>
-    					<span class="byline">Therapeutic Service for children,young people, families and/or carers</span>
-					  </div>
-    				<span class="image image-full"><img src="images/IntegratedTherapyServices.jpg" style="width:790px;height:260px;" alt="" /></span>
-    				<p>The Integrated Therapy Service (ITS) is a therapeutic service for children, young people, their families and/or carers who have behavioural, emotional and/or developmental difficulties due to trauma from abuse and neglect or who are at risk of harm. A full integrated team comprises of speech and language therapists, occupational therapists and psychologists.</p>
-  					<p><strong>Speech Therapy</strong></p>
-  					<p>Speech Pathologists help with communication, language and speech skills.  This includes how children and young people understand and use language, and the impact that any difficulties may have upon relationships, learning and emotional adjustment.</p>
-  					<p><strong>Occupational Therapy</strong></p>
-  					<p>The aim of Occupational therapy is to enable children and young people to participate in the activities of everyday life that bring meaning and purpose to them. These include movement skills, play skills, and many of the skills needed for school readiness. Occupational therapists work with children, young people, their families and their communities to enhance their ability to engage in the activities that they want to, need to, or are expected to do, or by modifying the activities or the environment to allow for better engagement and participation.</p>
-  					<p><strong>Psychological services</strong></p>
-  					<p>Psychologists assess and support children and families with concerns about general development and learning, social and emotional skills, behavioural difficulties and relationships.  Psychologists can work with children, young people, their families, and other important adults in their lives (e.g., schools), to manage and respond to traumatic experiences.</p>
-  					<p><strong>Locations</strong></p>
-  					<ul>
-  						<li>Adelaide</li>
-  						<li>Gympie</li>
-  						<li>Ipswich</li>
-  						<li>Townsville</li>
-  						<li>Western Sydney</li>
-  					</ul>
-      		</div>
+				<button onclick="myFunction1()">Integrated Therapy Services</button>
+				<button onclick="myFunction2()">Intensive Family Support</button>
+				<button onclick="myFunction3()">Early Education Program (EEP)</button>
+				<button onclick="myFunction4()">SafeKIDS</button>
+				<div id="article1">
+					<div class="title">
+						<h2 id="red">Integrated Therapy Services</h2>
+						<span class="byline">Therapeutic Service for children,young people, families and/or carers</span>
+					</div>
+					<span class="image image-full"><img src="images/IntegratedTherapyServices.jpg" style="width:790px;height:260px;" alt="" /></span>
+					<p>The Integrated Therapy Service (ITS) is a therapeutic service for children, young people, their families and/or carers who have behavioural, emotional and/or developmental difficulties due to trauma from abuse and neglect or who are at risk of harm. A full integrated team comprises of speech and language therapists, occupational therapists and psychologists.</p>
+					<p><strong>Speech Therapy</strong></p>
+					<p>Speech Pathologists help with communication, language and speech skills.  This includes how children and young people understand and use language, and the impact that any difficulties may have upon relationships, learning and emotional adjustment.</p>
+					<p><strong>Occupational Therapy</strong></p>
+					<p>The aim of Occupational therapy is to enable children and young people to participate in the activities of everyday life that bring meaning and purpose to them. These include movement skills, play skills, and many of the skills needed for school readiness. Occupational therapists work with children, young people, their families and their communities to enhance their ability to engage in the activities that they want to, need to, or are expected to do, or by modifying the activities or the environment to allow for better engagement and participation.</p>
+					<p><strong>Psychological services</strong></p>
+					<p>Psychologists assess and support children and families with concerns about general development and learning, social and emotional skills, behavioural difficulties and relationships.  Psychologists can work with children, young people, their families, and other important adults in their lives (e.g., schools), to manage and respond to traumatic experiences.</p>
+					<p><strong>Locations</strong></p>
+					<ul>
+						<li>Adelaide</li>
+						<li>Gympie</li>
+						<li>Ipswich</li>
+						<li>Townsville</li>
+						<li>Western Sydney</li>
+					</ul>
+				</div>	
 				  <!-- Intensive Family Support -->
-          <div class="article">
-    				<div class="title">
+				<div id="article2">
+					<div class="title">
     					<h2 id="red">Intensive Family Support</h2>
     					<span class="byline">Provides Case Management Support</span>
 					  </div>
@@ -94,24 +142,24 @@
   					</ul>
     			</div>
   				<!-- Early Education Program -->
-  				<div class="article">
+  				<div id="article3">
     				<div class="title">
     					<h2 id="red">Early Education Program (EEP)</h2>
     					<span class="byline">Educational intervention service for kids struggling to start school due to abuse or neglect</span>
-					  </div>
+					</div>
     				<span class="image image-full"><img src="images/EarlyEducationProgram.jpg" style="width:790px; height:260px;" alt="" /></span>
     				<p>The Early Education Program (EEP) is a unique pre-school educational intervention service for children who struggle to attain skills necessary to start school as a result of abuse or neglect.</p>
   					<p>The Townsville, Brisbane and Cairns program was developed through a partnership between Act for Kids and Education Queensland. The teachers are a part of the Townsville, Brisbane and Cairns teams and work closely with practitioners in these centres to integrate interventions specific to individual children into the curriculum.</p>
   					<p>The EEP is open four days a week and children aged 2–5 years attend full or half days at the pre-school learning the skills they need for primary school.</p>
   					<p><strong>How Can the Early Education Program help?</strong></p>
   					<p>A registered teacher develops individual learning plans for each child to ensure they reach their full potential. Children also receive support from a multi-disciplinary team of practitioners that can include psychologists, speech and language pathologists, occupational therapists, nurses, social workers and like disciplines. The program works with the parents, caregivers and other family members to help ensure the child is safe and happy and that they experience positive early development and interventions.</p>
-      		</div>
+				</div>
    				<!-- SafeKIDS -->
-  				<div class="article">
+  				<div id="article4">
     				<div class="title">
     					<h2 id="red">SafeKIDS</h2>
     					<span class="byline">Provides safe and culturally appropriate home environments for indigenous kids</span>
-					  </div>
+					</div>
     				<span class="image image-full"><img src="images/SafeKIDS.jpg" style="width:790px; height:500px;" alt="" /></span>
     				<p>Many Aboriginal children and young people under child protection orders or investigation are placed in care outside of their communities making maintaining family, community and cultural connections impossible.</p>
   					<p><strong>Locations</strong></p>
@@ -124,7 +172,7 @@
   						<li>Doomadgee</li>
   					</ul>
   					<p>It is expected we will transition control and management of the program to the traditional owners. Due to the success of the safe houses in the Cape and Gulf, Act for Kids was also asked to set up an additional safe house in Cairns.</p>
-          </div>
+				</div>
         </div>
       </div>
     </div>
