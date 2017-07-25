@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Act For Kids | About</title>
+    <title>Act For Kids | Home</title>
     <link href="Styles.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon" />
   </head>
@@ -26,8 +26,8 @@
     		</div>
     		<div class="navbar">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="current_page" href="about.html">About</a></li>
+            <li><a class="current_page" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contacts</a></li>
             <li><a href="donate.html">Donations</a></li>
 			      <li><a href="donators.html">Donators</a></li>
@@ -39,26 +39,47 @@
     	</div>
     	<div id="page">
     		<div id="content">
-			    <img src="images\about picture.png" alt="bear logo" width=100%>
-  				<div class="title">
-				    <h1>About Act for Kids</h1>
+          <div class="title">
+            <h1>Welcome to Act For Kids!</h1>
+          </div>
+          <div class="article">
+            <h2> A Quick Bit About Us</h2>
             <p>Act for Kids is an Australian charity providing free therapy and support services to children and families who have experienced, or are at risk of child abuse and neglect. We have helped thousands of children and families for over 28 years. Act for Kids operates 22 centres with a team of over 300 staff from Adelaide all the way up to the Cape York Peninsula. Our services have expanded to include integrated therapy, support for vulnerable families, special workshops to empower kids and safe houses in remote Aboriginal communities.</p>
+		      </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="caption">Galaxies From Far Far Away Unite For Charity</div>
+              <img src="images\banner1.jpg">
+            </div>
+            <div class="mySlides fade">
+              <div class="caption">China Trekkers Raising Big Dollars For Little Lives</div>
+              <img src="images\banner2.jpg">
+            </div>
+            <div class="mySlides fade">
+              <img src="images\banner3.jpg">
+              <div class="caption">Bundaberg Kids Learn To Keep Safe With Emmy</div>
+            </div>
+            <div class="mySlides fade">
+              <img src="images\banner4.jpg">
+              <div class="caption">CMC Rocks Gets Behind Act for Kids</div>
+            </div>
+            <script>
+              var slideIndex = 0;
+                showSlides();
+                  function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                      }
+                    slideIndex++;
+                    if (slideIndex> slides.length) {slideIndex = 1}
+                    slides[slideIndex-1].style.display = "block";
+                    setTimeout(showSlides, 4000); // Change image every 4 seconds
+                  }
+            </script>
           </div>
-          <div class="thirds">
-            <div>
-              <h3>Our Purpose</h3>
-              <p><center>To prevent and treat child abuse and neglect.</center></p>
-            </div>
-            <div>
-              <h3>Our Vision</h3>
-              <p><center>All kids have a safe and happy childhood, free from abuse and neglect.</center></p>
-            </div>
-            <div>
-              <h3>Our Values</h3>
-              <p><center>We are a professional, ethical team who is caring, courageous and collaborative.</center></p>
-            </div>
-          </div>
-    		</div>
+        </div>
       </div>
     </div>
     <div id="copyright">
