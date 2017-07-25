@@ -149,6 +149,7 @@
 
 	.title h1 {
 		text-align: center;
+		color: rgb(254, 10, 10);
 	}
 
 	#red {
@@ -166,10 +167,17 @@
 		max-width: 1000px;
 		position: relative;
 		margin: auto;
+		text-align: center;
 	}
 
 	.mySlides {
 		display: none;
+		width: 80%;
+		margin: auto;
+	}
+
+	.mySlides img {
+		width: 100%;
 	}
 
 	/* Caption text */
@@ -179,7 +187,7 @@
 		padding: 8px 12px;
 		bottom: 8px;
 		text-align: center;
-		background-color: #b9b9b9;
+		background-color: rgba(0, 0, 0, 0.1);
 	}
 
 	/* Fading animation */
