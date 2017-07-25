@@ -252,10 +252,6 @@
 		width: 250;
 	}
 
-	.support-grid table {
-		margin: auto;
-	}
-
 	.support-grid img {
 		width: 150;
 		height: 150;
@@ -273,7 +269,47 @@
 	.support-grid a {
 		text-decoration: none;
 	}
+	
+	/* Donator table */
+	
+	.donator-grid td {
+		text-align: center;
+		border-style: groove;
+		border-width: medium;
+		border-radius: 10px;
+	}
 
+	.donator-grid table {
+		margin: auto;
+		padding-bottom: 20px;
+		border-spacing: 10px;
+	}
+
+	.donator-grid td {
+		text-align: center;
+		padding: 20 10 20 10;
+		margin: 30 0 0 0;
+		width: 250;
+	}
+
+	.donator-grid img {
+		width: 150;
+		height: 150;
+		border-width: thick;
+		border-style: solid;
+		border-color: #ed4747;
+		margin-bottom: 5;
+	}
+
+	.donator-grid h3, .donator-grid p {
+		padding: 2 0;
+		margin: 0;
+	}
+
+	.donator-grid a {
+		text-decoration: none;
+	}
+	
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
@@ -307,7 +343,7 @@
 	}
 
 	.thirds {
-		width: 80%;
+		width: 100%;
 		height: 200;
 		margin: auto;
 		padding: 0;
@@ -316,12 +352,13 @@
 	.thirds div {
 		float: left;
 		width: 30%;
-		padding: 0 5;
+		padding: 0 16;
 	}
 
 	.thirds h3 {
 		text-align: center;
 	}
+<<<<<<< HEAD
 
 	.donate-iframe {
 		padding: 10px;
@@ -330,13 +367,25 @@
 		border: none;
 	}
 
+=======
+	
+	.thirds p {
+		padding: 0 15%;
+	
+>>>>>>> b356a4334661f50a780012a3bf84dd4923328e26
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
-
+}
+	
+	#socialmedia p {
+		color: #FFFFFF;
+		text-align: center;
+	}
+	
 	#copyright {
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 1em 0em;
 	}
 
 	#copyright p {
