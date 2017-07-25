@@ -324,23 +324,15 @@
 
 	.thirds {
 		width: 100%;
-		height: 200;
 		margin: auto;
 		padding: 0;
 	}
 
 	.thirds div {
 		float: left;
-		width: 30%;
+		width: 31%;
 		padding: 0 1%;
-	}
-
-	.thirds h3 {
 		text-align: center;
-	}
-
-	.thirds p {
-		padding: 0 15%;
 	}
 
 	.donate-iframe {
