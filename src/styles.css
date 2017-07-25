@@ -38,7 +38,7 @@
 /*********************************************************************************/
 
 	#header {
-		position: relative;
+		position: fixed;
 		overflow: hidden;
 		height: 155px;
 		width: 100%;
@@ -342,6 +342,7 @@
 		border-style: solid none;
 		border-radius: 10px;
 		border-width: 10px;
+		margin-top: 170px;
 	}
 
 	.article img {
